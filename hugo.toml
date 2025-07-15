@@ -1,4 +1,4 @@
-baseURL = 'https://edoofra/'
+baseURL = "https://edoofra.github.io/personal_portfolio/"
 languageCode = 'en-us'
 title = 'Edoardo Fratus'
 [module]
