@@ -24,8 +24,13 @@ hideHeader = false
 homeIntroTitle = 'Hi!'
 homeIntroSubtitle = 'Software Engineer'
 homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+I’m Edoardo, a motivated and dedicated software engineer passionate about advancing technology
+and innovation in the distributed systems domain. Currently, I am contributing to Satispay, the largest fintech company in Italy, 
+where I specialize in leveraging Java on AWS to build robust, scalable solutions.
+
+With a strong technical foundation, a product oriented mindset and a commitment to continuous learning, I am always exploring new ways to enhance my skills and 
+improve my craft. I thrive in dynamic environments, where I can collaborate with talented teams to drive impactful projects.
+I am particularly interested in expanding my expertise in cloud-based architectures and exploring cutting-edge technologies to deliver value and efficiency in my work.
 """
 
 # Collection to display on home
@@ -46,15 +51,11 @@ home = "Home"
 # Social icons
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
-
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
+url = "https://www.linkedin.com/in/edoardofratus/"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/user"
+url = "https://github.com/edoofra"
 
 # Main menu pages
 [[params.menu]]
