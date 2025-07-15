@@ -9,11 +9,7 @@
     {{ with .Site.Params.homeIntroTitle }}
     <h1>{{ . }}</h1>
     {{ end }}
-
-    {{ with .Site.Params.homeIntroTitle }}
-    <h3>{{ . }}</h3>
-    {{ end }}
-
+    
     {{ with .Site.Params.homeIntroContent }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
