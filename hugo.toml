@@ -60,15 +60,15 @@ url = "https://github.com/edoofra"
 # Main menu pages
 [[params.menu]]
 name = "home"
-url = "/"
+url = "/personal_portfolio/"
 
 [[params.menu]]
 name = "posts"
-url = "/posts"
+url = "/personal_portfolio/posts"
 
 [[params.menu]]
 name = "about"
-url = "/about"
+url = "/personal_portfolio/about"
 
 # Syntax highlight on code blocks
 [markup]

@@ -1,19 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Edoardo Fratus</title>
-    <link>https://edoofra.github.io/personal_portfolio/</link>
-    <description>Recent content in Home on Edoardo Fratus</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://edoofra.github.io/personal_portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://edoofra.github.io/personal_portfolio/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://edoofra.github.io/personal_portfolio/about/</guid>
-      <description>&lt;h2 class=&#34;heading&#34; id=&#34;skills&#34;&gt;&#xA;  Skills&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#skills&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a software engineer with a passion for building scalable distributed systems. My expertise spans across multiple areas:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Backend Development&lt;/strong&gt;: Proficient in Java, Spring Boot, and microservices architecture. I specialize in building robust, scalable applications that can handle high-traffic loads while maintaining performance and reliability.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cloud Technologies&lt;/strong&gt;: Extensive experience with AWS services including EC2, Lambda, RDS, and S3. I design and implement cloud-native solutions that leverage the full potential of distributed computing.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Edoardo Fratus</title><link>https://edoofra.github.io/personal_portfolio/</link><description>Recent content in Home on Edoardo Fratus</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://edoofra.github.io/personal_portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://edoofra.github.io/personal_portfolio/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://edoofra.github.io/personal_portfolio/about/</guid><description>&lt;h2 class="heading" id="skills">
+ Skills
+ &lt;a class="anchor" href="#skills">#&lt;/a>
+&lt;/h2>
+&lt;p>I&amp;rsquo;m a software engineer with a passion for building scalable distributed systems. My expertise spans across multiple areas:&lt;/p>
+&lt;p>&lt;strong>Backend Development&lt;/strong>: Proficient in Java, Spring Boot, and microservices architecture. I specialize in building robust, scalable applications that can handle high-traffic loads while maintaining performance and reliability.&lt;/p>
+&lt;p>&lt;strong>Cloud Technologies&lt;/strong>: Extensive experience with AWS services including EC2, Lambda, RDS, and S3. I design and implement cloud-native solutions that leverage the full potential of distributed computing.&lt;/p></description></item></channel></rss>
