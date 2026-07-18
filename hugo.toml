@@ -68,7 +68,7 @@ period = "Feb 2025 - Mar 2026"
 summary = "Designed and implemented high-impact Welfare Flexben features, including core payment platform work, report reconciliation, fan-out order processing, circuit breakers, and virtual-thread adoption."
 
 [[params.featuredExperience]]
-role = "Junior Software Engineer (L4)"
+role = "Junior Software Engineer (L3)"
 company = "Satispay"
 period = "2023 - 2025"
 summary = "Co-built the Satispay Fringe Benefits backend from scratch, focusing on Order and Purchase flows and supporting EUR 30M in transactions in the first three months."

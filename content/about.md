@@ -59,7 +59,7 @@ At Satispay I work on Welfare and Flexben products, where the engineering proble
   </div>
 
   <div class="timeline-item">
-    <h3>Junior Software Engineer (L4) - Satispay</h3>
+    <h3>Junior Software Engineer (L3) - Satispay</h3>
     <div class="timeline-period">2023 - Feb 2025</div>
     <div class="timeline-description">
       <p>I joined the Welfare team as a backend engineer and helped design, build, and ship new products on Java Spring services backed by PostgreSQL, MySQL, DynamoDB, and AWS infrastructure.</p>

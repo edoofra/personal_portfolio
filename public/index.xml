@@ -1,18 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Edoardo Fratus</title>
-    <link>https://edoofra.github.io/personal_portfolio/</link>
-    <description>Recent content in Home on Edoardo Fratus</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://edoofra.github.io/personal_portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://edoofra.github.io/personal_portfolio/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://edoofra.github.io/personal_portfolio/about/</guid>
-      <description>&lt;p&gt;I am a Software Engineer III focused on distributed systems, fintech platforms, and practical developer tooling. I care about systems that are easy to reason about when traffic is high, data is messy, and failures need to stay contained.&lt;/p&gt;&#xA;&lt;p&gt;At Satispay I work on Welfare and Flexben products, where the engineering problems sit close to real business value: payment flows, reconciliation, order processing, reliability, and product iteration. I like that mix. It keeps the work technical, but never abstract.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Edoardo Fratus</title><link>https://edoofra.github.io/personal_portfolio/</link><description>Recent content in Home on Edoardo Fratus</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://edoofra.github.io/personal_portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://edoofra.github.io/personal_portfolio/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://edoofra.github.io/personal_portfolio/about/</guid><description>&lt;p&gt;I am a Software Engineer III focused on distributed systems, fintech platforms, and practical developer tooling. I care about systems that are easy to reason about when traffic is high, data is messy, and failures need to stay contained.&lt;/p&gt;
+&lt;p&gt;At Satispay I work on Welfare and Flexben products, where the engineering problems sit close to real business value: payment flows, reconciliation, order processing, reliability, and product iteration. I like that mix. It keeps the work technical, but never abstract.&lt;/p&gt;</description></item></channel></rss>
