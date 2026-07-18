@@ -2,18 +2,36 @@
 
 {{ .Content }}
 
-{{/* Intro summary section */}}
-
 {{ if or .Site.Params.homeIntroTitle .Site.Params.homeIntroContent }}
-<div class="intro">
-    {{ with .Site.Params.homeIntroTitle }}
-    <h1>{{ . }}</h1>
+<section class="profile-intro">
+    <div class="profile-intro-copy">
+        <p class="profile-kicker">Edoardo Fratus</p>
+        {{ with .Site.Params.homeIntroTitle }}
+        <h1>{{ . }}</h1>
+        {{ end }}
+
+        {{ with .Site.Params.homeIntroContent }}
+        <div class="profile-summary">{{ . | markdownify }}</div>
+        {{ end }}
+
+        <div class="profile-actions">
+            <a class="profile-action primary" href="{{ "about" | relURL }}">Experience</a>
+            <a class="profile-action" href="https://github.com/edoofra" target="_blank" rel="noopener noreferrer me">GitHub</a>
+            <a class="profile-action" href="https://www.linkedin.com/in/edoardofratus/" target="_blank" rel="noopener noreferrer me">LinkedIn</a>
+        </div>
+    </div>
+
+    {{ with .Site.Params.profileStats }}
+    <div class="profile-stats" aria-label="Profile highlights">
+        {{ range . }}
+        <div class="profile-stat">
+            <strong>{{ .value }}</strong>
+            <span>{{ .label }}</span>
+        </div>
+        {{ end }}
+    </div>
     {{ end }}
-    
-    {{ with .Site.Params.homeIntroContent }}
-    <p>{{ . | markdownify }}</p>
-    {{ end }}
-</div>
+</section>
 {{ end }}
 
 {{/* Social Icons */}}
@@ -28,6 +46,44 @@
     </a>
     {{- end }}
 </div>
+{{ end }}
+
+{{ with .Site.Params.homeHighlights }}
+<section class="home-section">
+    <div class="section-heading">
+        <p class="profile-kicker">What I work on</p>
+        <h2>Backend systems where reliability is part of the product.</h2>
+    </div>
+    <div class="highlight-grid">
+        {{ range . }}
+        <article class="highlight-card">
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+        </article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+{{ with .Site.Params.featuredExperience }}
+<section class="home-section">
+    <div class="section-heading">
+        <p class="profile-kicker">Selected experience</p>
+        <h2>From computer vision prototypes to production fintech platforms.</h2>
+    </div>
+    <div class="experience-list">
+        {{ range . }}
+        <article class="experience-card">
+            <div>
+                <h3>{{ .role }}</h3>
+                <p class="experience-company">{{ .company }}</p>
+            </div>
+            <p class="experience-period">{{ .period }}</p>
+            <p class="experience-summary">{{ .summary }}</p>
+        </article>
+        {{ end }}
+    </div>
+</section>
 {{ end }}
 
 {{/* Collection Section */}}

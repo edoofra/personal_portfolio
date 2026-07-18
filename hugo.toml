@@ -13,7 +13,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "Personal portfolio of Edoardo Fratus, Software Engineer III focused on distributed systems, fintech platforms, and pragmatic AI tooling."
 
 # Appearance settings
 theme = 'auto'
@@ -21,17 +21,63 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
-homeIntroSubtitle = 'Software Engineer'
+homeIntroTitle = 'Software Engineer III for distributed fintech systems.'
+homeIntroSubtitle = 'Software Engineer III'
+currentCompanyName = 'Satispay'
+currentCompanyUrl = 'https://www.satispay.com/it-it/'
 homeIntroContent = """
-I’m Edoardo, a motivated and dedicated software engineer passionate about advancing technology
-and innovation in the distributed systems domain. Currently, I am contributing to Satispay, the largest fintech company in Italy, 
-where I specialize in leveraging Java on AWS to build robust, scalable solutions.
+I am Edoardo Fratus, a Software Engineer III in Milan working on high-scale fintech systems at Satispay. I like the part of engineering where product pressure, reliability, and clean system design all meet: payments, reconciliation, fan-out processing, circuit breakers, and the boring-but-critical details that keep platforms calm under load.
 
-With a strong technical foundation, a product oriented mindset and a commitment to continuous learning, I am always exploring new ways to enhance my skills and 
-improve my craft. I thrive in dynamic environments, where I can collaborate with talented teams to drive impactful projects.
-I am particularly interested in expanding my expertise in cloud-based architectures and exploring cutting-edge technologies to deliver value and efficiency in my work.
+Recently I have been leading end-to-end delivery for major Welfare and Flexben features, coordinating product, frontend, mobile, and backend work while staying hands-on in backend technical analysis and implementation.
 """
+
+[[params.profileStats]]
+value = "SWE III"
+label = "L5 software engineer at Satispay"
+
+[[params.profileStats]]
+value = "EUR 30M"
+label = "processed in 3 months on Satispay Fringe Benefits"
+
+[[params.profileStats]]
+value = "Java 8-25"
+label = "across production backend services"
+
+[[params.homeHighlights]]
+title = "Resilient payment platforms"
+description = "Designing backend flows for payments, reporting, reconciliation, and failure isolation in distributed services."
+
+[[params.homeHighlights]]
+title = "Performance under load"
+description = "Using event-driven fan-out, AWS services, and Virtual Threads to improve throughput in I/O-bound systems."
+
+[[params.homeHighlights]]
+title = "AI for engineering work"
+description = "Building Claude subagents and workflow automation that remove boilerplate while keeping engineering judgement in the loop."
+
+[[params.featuredExperience]]
+role = "Software Engineer III (L5)"
+company = "Satispay"
+period = "Mar 2026 - present"
+summary = "Leading end-to-end delivery of major Welfare and Flexben features, translating product needs into technical specifications and coordinating frontend, mobile, and backend teams."
+
+[[params.featuredExperience]]
+role = "Software Engineer II (L4)"
+company = "Satispay"
+period = "Feb 2025 - Mar 2026"
+summary = "Designed and implemented high-impact Welfare Flexben features, including core payment platform work, report reconciliation, fan-out order processing, circuit breakers, and virtual-thread adoption."
+
+[[params.featuredExperience]]
+role = "Junior Software Engineer (L4)"
+company = "Satispay"
+period = "2023 - 2025"
+summary = "Co-built the Satispay Fringe Benefits backend from scratch, focusing on Order and Purchase flows and supporting EUR 30M in transactions in the first three months."
+
+[[params.featuredExperience]]
+role = "Software Engineer Intern"
+company = "Accenture"
+period = "2023"
+summary = "Developed a Python microservice for document defect detection using computer vision, YOLO, and deep learning."
 
 # Collection to display on home
 homeCollectionTitle = 'Posts'

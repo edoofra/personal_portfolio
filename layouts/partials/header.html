@@ -9,7 +9,12 @@
     </h1>
     <div class="header-subtitle">
         {{ with .Site.Params.homeIntroSubtitle }}
-        <h3>{{ . }} <a href="https://www.satispay.com/it-it/">@Satispay</a></h3>
+        <h3>
+            {{ . }}
+            {{ with $.Site.Params.currentCompanyName }}
+            <a href="{{ $.Site.Params.currentCompanyUrl | default "#" | safeURL }}">@{{ . }}</a>
+            {{ end }}
+        </h3>
         {{ end }}
     </div>
 
