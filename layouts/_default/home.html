@@ -16,6 +16,8 @@
 
         <div class="profile-actions">
             <a class="profile-action primary" href="{{ "about" | relURL }}">Experience</a>
+            <a class="profile-action" href="{{ "files/Edoardo_Fratus_CV_2026.pdf" | relURL }}">Download CV</a>
+            <a class="profile-action" href="{{ "projects" | relURL }}">Projects</a>
             <a class="profile-action" href="https://github.com/edoofra" target="_blank" rel="noopener noreferrer me">GitHub</a>
             <a class="profile-action" href="https://www.linkedin.com/in/edoardofratus/" target="_blank" rel="noopener noreferrer me">LinkedIn</a>
         </div>
@@ -65,6 +67,57 @@
 </section>
 {{ end }}
 
+{{ with .Site.Params.caseStudies }}
+<section class="home-section">
+    <div class="section-heading">
+        <p class="profile-kicker">Case studies</p>
+        <h2>Concrete problems, delivered without exposing confidential details.</h2>
+    </div>
+    <div class="case-study-grid">
+        {{ range . }}
+        <article class="case-study-card">
+            <h3>{{ .title }}</h3>
+            <p><strong>Problem:</strong> {{ .problem }}</p>
+            <p><strong>Approach:</strong> {{ .approach }}</p>
+            <p><strong>Impact:</strong> {{ .impact }}</p>
+            <a href="{{ .url | safeURL }}">Read case study</a>
+        </article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+{{ with .Site.Params.stack }}
+<section class="home-section compact-section">
+    <div class="section-heading">
+        <p class="profile-kicker">Selected stack</p>
+        <h2>Backend, cloud, data, and AI tools I use in real systems.</h2>
+    </div>
+    <div class="stack-list">
+        {{ range . }}
+        <span>{{ .name }}</span>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+{{ with .Site.Params.howIWork }}
+<section class="home-section">
+    <div class="section-heading">
+        <p class="profile-kicker">How I work</p>
+        <h2>Technical ownership with product context and production discipline.</h2>
+    </div>
+    <div class="highlight-grid">
+        {{ range . }}
+        <article class="highlight-card">
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+        </article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
 {{ with .Site.Params.featuredExperience }}
 <section class="home-section">
     <div class="section-heading">
@@ -85,6 +138,33 @@
     </div>
 </section>
 {{ end }}
+
+{{ with .Site.Params.writingTopics }}
+<section class="home-section compact-section">
+    <div class="section-heading">
+        <p class="profile-kicker">Writing</p>
+        <h2>Topics I want this blog to become useful for.</h2>
+    </div>
+    <div class="stack-list">
+        {{ range . }}
+        <span>{{ .name }}</span>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+<section class="home-section contact-band">
+    <div>
+        <p class="profile-kicker">Contact</p>
+        <h2>Open to backend, platform, fintech, and AI-engineering conversations.</h2>
+    </div>
+    <div class="profile-actions">
+        <a class="profile-action primary" href="mailto:edoardo.fra.ef@gmail.com">Email</a>
+        <a class="profile-action" href="https://www.linkedin.com/in/edoardofratus/" target="_blank" rel="noopener noreferrer me">LinkedIn</a>
+        <a class="profile-action" href="https://github.com/edoofra" target="_blank" rel="noopener noreferrer me">GitHub</a>
+        <a class="profile-action" href="{{ "files/Edoardo_Fratus_CV_2026.pdf" | relURL }}">CV</a>
+    </div>
+</section>
 
 {{/* Collection Section */}}
 

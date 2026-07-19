@@ -6,6 +6,12 @@ I am a Software Engineer III focused on distributed systems, fintech platforms, 
 
 At Satispay I work on Welfare and Flexben products, where the engineering problems sit close to real business value: payment flows, reconciliation, order processing, reliability, and product iteration. I like that mix. It keeps the work technical, but never abstract.
 
+<div class="contact-panel">
+  <a class="profile-action primary" href="/personal_portfolio/files/Edoardo_Fratus_CV_2026.pdf">Download CV</a>
+  <a class="profile-action" href="/personal_portfolio/projects/">Projects</a>
+  <a class="profile-action" href="/personal_portfolio/contact/">Contact</a>
+</div>
+
 ## Engineering Focus
 
 <div class="skill-grid">
@@ -23,7 +29,24 @@ At Satispay I work on Welfare and Flexben products, where the engineering proble
   </div>
   <div class="skill-card">
     <h3>AI and automation</h3>
-    <p>LLMs, Claude subagents, generative AI workflows, Python, YOLO, TensorFlow, and PyTorch.</p>
+    <p>LLMs, AI agents, Claude subagents, local AI experimentation, generative AI workflows, Python, YOLO, TensorFlow, and PyTorch.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Technical leadership</h3>
+    <p>End-to-end ownership, product collaboration, technical analysis, cross-functional alignment, and hands-on delivery.</p>
+  </div>
+</div>
+
+## How I Work
+
+<div class="skill-grid">
+  <div class="skill-card">
+    <h3>From ambiguity to launch</h3>
+    <p>I like owning the whole path: understanding product intent, shaping the technical plan, coordinating delivery, implementing the backend, and following through after launch.</p>
+  </div>
+  <div class="skill-card">
+    <h3>AI with a quality bar</h3>
+    <p>I use AI where it creates concrete engineering leverage: analysis, boilerplate removal, test scaffolding, migrations, and local experiments that remain reviewable by humans.</p>
   </div>
 </div>
 

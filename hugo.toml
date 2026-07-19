@@ -28,7 +28,7 @@ currentCompanyUrl = 'https://www.satispay.com/it-it/'
 homeIntroContent = """
 I am Edoardo Fratus, a Software Engineer III in Milan working on high-scale fintech systems at Satispay. I like the part of engineering where product pressure, reliability, and clean system design all meet: payments, reconciliation, fan-out processing, circuit breakers, and the boring-but-critical details that keep platforms calm under load.
 
-Recently I have been leading end-to-end delivery for major Welfare and Flexben features, coordinating product, frontend, mobile, and backend work while staying hands-on in backend technical analysis and implementation.
+Recently I have been leading end-to-end delivery for major Welfare and Flexben features, coordinating Product, frontend, mobile, and backend work while staying hands-on in backend technical analysis and implementation. I also use AI in a concrete way: building agents and local workflows that remove repetitive engineering work without removing engineering judgement.
 """
 
 [[params.profileStats]]
@@ -53,7 +53,104 @@ description = "Using event-driven fan-out, AWS services, and Virtual Threads to 
 
 [[params.homeHighlights]]
 title = "AI for engineering work"
-description = "Building Claude subagents and workflow automation that remove boilerplate while keeping engineering judgement in the loop."
+description = "Building Claude subagents, local AI experiments, and workflow automation that solve real engineering bottlenecks."
+
+[[params.homeHighlights]]
+title = "End-to-end ownership"
+description = "Turning ambiguous product goals into technical analysis, coordinated delivery, launch readiness, and production follow-up."
+
+[[params.caseStudies]]
+title = "End-to-end Flexben feature delivery"
+problem = "A major Welfare/Flexben feature needed to move from product discovery to production without losing alignment across multiple teams."
+approach = "Owned backend technical analysis, translated product needs into implementation plans, and coordinated frontend, mobile, and backend integration."
+impact = "Delivered through a six-month lifecycle with cleaner cross-team execution and a stronger bridge between product goals and backend reality."
+url = "/personal_portfolio/projects/#end-to-end-flexben-feature-delivery"
+
+[[params.caseStudies]]
+title = "AI agents for engineering throughput"
+problem = "Recurring low-level and boilerplate engineering tasks were slowing teams down and consuming attention better spent on design quality."
+approach = "Created Claude subagents and practical AI workflows for code generation, analysis, scaffolding, and repetitive task automation."
+impact = "Moved AI from experimentation into concrete internal engineering workflows used beyond a single personal setup."
+url = "/personal_portfolio/projects/#ai-agents-for-engineering-throughput"
+
+[[params.caseStudies]]
+title = "Event-driven year-end order processing"
+problem = "Flexben year-end operations required simultaneous processing of many closing workflows under bursty load."
+approach = "Designed an event-driven fan-out system and paired it with resilience patterns for safer high-volume execution."
+impact = "Improved scalability and operational confidence for time-sensitive order closing flows."
+url = "/personal_portfolio/projects/#event-driven-year-end-order-processing"
+
+[[params.stack]]
+name = "Java 8/11/17/21/25"
+
+[[params.stack]]
+name = "Spring Boot"
+
+[[params.stack]]
+name = "AWS Lambda"
+
+[[params.stack]]
+name = "EC2 / ECS"
+
+[[params.stack]]
+name = "SQS / SNS"
+
+[[params.stack]]
+name = "Kinesis"
+
+[[params.stack]]
+name = "PostgreSQL"
+
+[[params.stack]]
+name = "MySQL"
+
+[[params.stack]]
+name = "DynamoDB"
+
+[[params.stack]]
+name = "MyBatis"
+
+[[params.stack]]
+name = "Docker"
+
+[[params.stack]]
+name = "LLMs"
+
+[[params.stack]]
+name = "AI Agents"
+
+[[params.stack]]
+name = "Local AI"
+
+[[params.stack]]
+name = "Python"
+
+[[params.howIWork]]
+title = "I own the path, not just the ticket"
+description = "I like taking a feature from ambiguous product need to technical plan, implementation, launch, and follow-up."
+
+[[params.howIWork]]
+title = "I stay close to the code"
+description = "Leadership is most useful when it is grounded in design tradeoffs, code review, production constraints, and real delivery pressure."
+
+[[params.howIWork]]
+title = "I use AI where it pays rent"
+description = "LLMs, agents, and local AI experiments are useful when they reduce repetitive work, improve analysis, or make migrations safer."
+
+[[params.writingTopics]]
+name = "Backend engineering notes"
+
+[[params.writingTopics]]
+name = "Java and Spring patterns"
+
+[[params.writingTopics]]
+name = "AWS event-driven systems"
+
+[[params.writingTopics]]
+name = "AI-assisted development"
+
+[[params.writingTopics]]
+name = "Fintech reliability lessons"
 
 [[params.featuredExperience]]
 role = "Software Engineer III (L5)"
@@ -113,8 +210,20 @@ name = "posts"
 url = "/personal_portfolio/posts"
 
 [[params.menu]]
+name = "projects"
+url = "/personal_portfolio/projects"
+
+[[params.menu]]
+name = "now"
+url = "/personal_portfolio/now"
+
+[[params.menu]]
 name = "about"
 url = "/personal_portfolio/about"
+
+[[params.menu]]
+name = "contact"
+url = "/personal_portfolio/contact"
 
 # Syntax highlight on code blocks
 [markup]

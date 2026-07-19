@@ -440,7 +440,8 @@ footer a {
 
 .highlight-card,
 .experience-card,
-.skill-card {
+.skill-card,
+.case-study-card {
   border: 1px solid var(--code-border);
   border-radius: 8px;
   padding: 1.1rem;
@@ -448,15 +449,75 @@ footer a {
 
 .highlight-card h3,
 .experience-card h3,
-.skill-card h3 {
+.skill-card h3,
+.case-study-card h3 {
   margin-top: 0;
 }
 
 .highlight-card p,
 .experience-summary,
-.skill-card p {
+.skill-card p,
+.case-study-card p {
   color: var(--content-secondary);
+}
+
+.highlight-card p,
+.experience-summary,
+.skill-card p {
   margin-bottom: 0;
+}
+
+.case-study-card p:last-of-type {
+  margin-bottom: 0.8rem;
+}
+
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.case-study-grid.page-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem 0 2.5rem;
+}
+
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.stack-list span {
+  border: 1px solid var(--code-border);
+  border-radius: 999px;
+  color: var(--content-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  padding: 0.38rem 0.62rem;
+}
+
+.compact-section {
+  padding-bottom: clamp(1.8rem, 4vw, 3rem);
+}
+
+.contact-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.contact-band h2 {
+  margin-top: 0;
+  max-width: 720px;
+}
+
+.contact-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.2rem 0 2rem;
 }
 
 .experience-list {
@@ -881,7 +942,8 @@ blockquote p {
 @media (max-width: 820px) {
   .profile-intro,
   .section-heading,
-  .experience-card {
+  .experience-card,
+  .contact-band {
     grid-template-columns: 1fr;
   }
 
@@ -894,7 +956,9 @@ blockquote p {
   }
 
   .highlight-grid,
-  .skill-grid {
+  .skill-grid,
+  .case-study-grid,
+  .case-study-grid.page-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -904,7 +968,8 @@ blockquote p {
     grid-template-columns: 1fr;
   }
 
-  .profile-action {
+  .profile-action,
+  .contact-panel .profile-action {
     width: 100%;
     text-align: center;
   }
